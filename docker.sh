@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp
-pt-get -y update && upgrade
+apt-get -y update && upgrade
 apt-get install -y git
 apt-get install -y openjdk-8-jdk
 apt-get -y update
